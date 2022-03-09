@@ -1,0 +1,64 @@
+/* ---------- Light Theme Colors ---------- */
+
+// Colors
+$color-1-light: #521d1d;
+$color-2-light: #f46c6c;
+$color-3-light: rgb(233, 99, 99);
+$color-4-light: #ed4f4f;
+$color-5-light: #ea3636;
+$white-light: #ddd;
+$white-2-light: #f1eeee;
+$black-light: #333;
+
+// Colors home
+$blue-1-light: #c0a9ff;
+$blue-2-light: #26252e;
+$blue-3-light: #cdcae7;
+$blue-4-light: #d4deff;
+
+// Colors formations
+$blue-purple-1-light: #ad91ce;
+$blue-purple-2-light: #30095a;
+$blue-purple-3-light: #593f85;
+$blue-purple-4-light: #77658b;
+
+// Colors portfolio
+$light-purple-1-light: #a282caf3;
+$light-purple-2-light: #47325e;
+$light-purple-3-light: #593f85;
+$light-purple-4-light: #77658b;
+
+// Colors knowledges
+$purple-1-light: #a37394;
+$purple-2-light: #f3c5d6;
+$purple-3-light: #2e1928;
+$purple-4-light: #552f4a;
+
+// Colors contact
+$black-purple-1-light: #46081f;
+$black-purple-2-light: #c76172;
+$black-purple-3-light: #7a1b2b;
+$black-purple-4-light: #c73d3d;
+$black-purple-5-light: #5a0e0e;
+$black-purple-6-light: #922e2e;
+$brown-1-light: #661a1a;
+
+// Body settings
+
+body {
+    background-color: grey;
+}
+
+.main-container-light {
+    // height: 10%;
+    // background-image: url('./../img/background-all.jpg');
+    background-size: cover;
+    font-family: $font-1;
+
+    .container {
+        padding: 0;
+        margin: auto;
+        max-width: 1400px;
+    }
+}
+

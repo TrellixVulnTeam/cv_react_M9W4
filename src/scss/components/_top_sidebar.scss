@@ -1,0 +1,39 @@
+.top-sidebar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+
+    button, a {
+        background-color: transparent;
+        border: none;
+        // margin: 10px;
+
+        i {
+            margin: 5px;
+            padding: 10px;
+            color: white;
+            border-radius: 100%;
+            background-color: $light-purple-1;
+        }
+    }
+}
+
+.top-sidebar-light {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+
+    button, a {
+        background-color: transparent;
+        border: none;
+        // margin: 10px;
+
+        i {
+            margin: 5px;
+            padding: 10px;
+            color: white;
+            border-radius: 100%;
+            background-color: $black-light;
+        }
+    }
+}

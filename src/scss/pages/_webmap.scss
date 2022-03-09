@@ -1,0 +1,209 @@
+.webmap {
+    
+    .sidebar {
+        // background: linear-gradient(128deg, #6c4414dc, $light-purple-1); 
+        background: linear-gradient(140deg, $blue-purple-1 60%, transparent 120%);
+
+        .id {
+
+            .id-content {
+        
+                img {
+                box-shadow: 0 0 0 3px $blue-purple-4, 0 0 0 6px $blue-purple-3, 0 0 0 8px $blue-purple-1;
+                }
+        
+                h3 {
+                color: $blue-purple-2;
+                }
+            }
+        }
+
+        .navigation {
+
+            ul {
+        
+                li {
+        
+                    a {
+                        color: $blue-purple-2;
+                    }
+            
+                    .navActive {
+                        color: $blue-purple-4;
+                    }
+                }
+            }
+        }
+
+        .social-networks {
+
+            ul {
+        
+                li {
+                background: $blue-purple-1;
+                color: $blue-purple-2;
+        
+                    &:hover {
+                        background: $blue-purple-3;
+                    }
+            
+                    &:visited {
+                        color: $blue-purple-3;
+                    }
+                }
+            }   
+        }
+
+        .signature {
+    
+            p {
+                color: $light-purple-2;
+            }
+        }
+    }
+
+    .webmap-content {
+        background: linear-gradient(170deg, $light-purple-3 40%, transparent 150%);
+        margin: 0 10px;
+        padding: 20px;
+        border-radius: $border-radius;
+        width: 100%;
+    
+        h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: white;
+        }
+    
+        hr {
+            width: 60%;
+            margin: 0 auto 20px auto;
+        }
+    
+        .content {
+            display: flex;
+            flex-direction: column;
+
+            ul {
+                
+                li {
+                    margin: 20px 0;
+
+                    i {
+                        margin: 0 10px;
+                        color: #d400ff;
+                    }
+
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.webmap-light {
+    
+    .sidebar {
+        // background: linear-gradient(128deg, #6c4414dc, $light-purple-1); 
+        background: linear-gradient(140deg, $light-purple-1-light 60%, transparent 120%);
+
+        .id {
+
+            .id-content {
+        
+                img {
+                box-shadow: 0 0 0 3px $blue-purple-4, 0 0 0 6px $blue-purple-3, 0 0 0 8px $blue-purple-1;
+                }
+        
+                h3 {
+                color: $blue-purple-2;
+                }
+            }
+        }
+
+        .navigation {
+
+            ul {
+        
+                li {
+        
+                    a {
+                        color: $blue-purple-2-light;
+                    }
+            
+                    .navActive {
+                        color: $blue-purple-4-light;
+                    }
+                }
+            }
+        }
+
+        .social-networks {
+
+            ul {
+        
+                li {
+                background: $blue-purple-1;
+                color: $blue-purple-2;
+        
+                    &:hover {
+                        background: $blue-purple-3;
+                    }
+            
+                    &:visited {
+                        color: $blue-purple-3;
+                    }
+                }
+            }   
+        }
+
+        .signature {
+    
+            p {
+                color: $light-purple-2;
+            }
+        }
+    }
+
+    .webmap-content {
+        background: linear-gradient(170deg, $light-purple-1-light 40%, transparent 150%);
+        margin: 0 10px;
+        padding: 20px;
+        border-radius: $border-radius;
+        width: 100%;
+    
+        h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: $black-light;
+        }
+    
+        hr {
+            width: 60%;
+            margin: 0 auto 20px auto;
+        }
+    
+        .content {
+            display: flex;
+            flex-direction: column;
+
+            ul {
+                
+                li {
+                    margin: 20px 0;
+
+                    i {
+                        margin: 0 10px;
+                        color: #d400ff;
+                    }
+
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,31 @@
+.notFound-content {
+    
+    .content {
+        text-align: center;
+        background: linear-gradient(115deg, $color-1 50%, transparent 100%);
+        margin: 0 10px;
+        padding: 20px;
+        border-radius: $border-radius;
+        width: 70%;
+        margin: auto;
+
+        i {
+            font-size: 50px;
+            color: $color-3;
+
+        }
+
+        h3 {
+            margin: 40px 0;
+            color: $color-2;
+        }
+
+        a {
+            
+            i {
+                font-size: 16px;
+                margin-right: 10px;
+            }
+        }
+    }
+}

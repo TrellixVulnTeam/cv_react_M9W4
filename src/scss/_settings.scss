@@ -1,0 +1,151 @@
+// Libraries
+@import "./libraries/fontawesome-free-5.15.4-web/css/all.min.css";
+
+// Sizing
+$min-height: 200px;
+$min-width: 260px;
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
+
+$font-1: 'Nova Round', cursive;
+$font-2: 'Dosis', sans-serif;
+$font-3: 'Josefin Sans', serif;
+
+/* ---------- Dark Theme Colors ---------- */
+
+// Colors
+$color-1: #521d1d;
+$color-2: #f46c6c;
+$color-3: rgb(233, 99, 99);
+$color-4: #ed4f4f;
+$color-5: #ea3636;
+$white: #ddd;
+$white-2: #c59393;
+$black: #333;
+
+// Colors home
+$blue-1: #3804c1;
+$blue-2: #a397ff;
+$blue-3: #5741ff;
+$blue-4: #7067b6;
+
+// Colors formations
+$blue-purple-1: #421d6d;
+$blue-purple-2: #a976df;
+$blue-purple-3: #593f85;
+$blue-purple-4: #77658b;
+
+// Colors portfolio
+$light-purple-1: #2b1d3df3;
+$light-purple-2: #bfabd4;
+$light-purple-3: #593f85;
+$light-purple-4: #77658b;
+
+// Colors knowledges
+$purple-1: #a37394;
+$purple-2: #a16079;
+$purple-3: #2e1928;
+$purple-4: #552f4a;
+
+// Colors contact
+$black-purple-1: #46081f;
+$black-purple-2: #c76172;
+$black-purple-3: #7a1b2b;
+$black-purple-4: #c73d3d;
+$black-purple-5: #5a0e0e;
+$black-purple-6: #922e2e;
+$brown-1: #661a1a;
+
+// Radius
+$border-radius: 8px;
+$shadow: 2px 2px 2px black;
+
+// Normalize
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Works on Firefox */
+* {
+scrollbar-width: thin;
+scrollbar-color: blue orange;
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+background: $white-2;
+border-radius: 20px;
+}
+
+*::-webkit-scrollbar-thumb {
+background-color: $black;
+border-radius: 20px;
+border: 3px solid $white-2;
+}
+
+// Functions
+@mixin verticalCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Body settings
+
+.main-container {
+    // height: 10%;
+    background-image: url('./../img/background-all.jpg');
+    background-size: cover;
+    font-family: $font-1;
+
+    .container {
+        padding: 0;
+        margin: auto;
+        max-width: 1400px;
+    }
+}
+
+// Common classes
+button {
+    cursor: pointer;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+a:visited {
+    color: $color-3;
+}
+
+.home,
+.home-light,
+.knowledges,
+.knowledges-light,
+.experiences,
+.experiences-light,
+.portfolio,
+.portfolio-light,
+.contact,
+.contact-light,
+.formations,
+.formations-light,
+.webmap,
+.webmap-light,
+.credits,
+.credits-light {
+    display: flex;
+}

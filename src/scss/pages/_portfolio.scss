@@ -1,0 +1,301 @@
+.portfolio {
+    
+    .sidebar {
+        // background: linear-gradient(128deg, #6c4414dc, $light-purple-1); 
+        background: linear-gradient(140deg, $light-purple-1 60%, transparent 120%);
+
+        .id {
+
+            .id-content {
+        
+                img {
+                box-shadow: 0 0 0 3px $blue-purple-4, 0 0 0 6px $blue-purple-3, 0 0 0 8px $blue-purple-1;
+                }
+        
+                h3 {
+                color: $blue-purple-2;
+                }
+            }
+        }
+
+        .navigation {
+
+            ul {
+        
+                li {
+        
+                    a {
+                        color: $blue-purple-2;
+                    }
+            
+                    .navActive {
+                        color: $blue-purple-4;
+                    }
+                }
+            }
+        }
+
+        .social-networks {
+
+            ul {
+        
+                li {
+                background: $blue-purple-1;
+                color: $blue-purple-2;
+        
+                    &:hover {
+                        background: $blue-purple-3;
+                    }
+            
+                    &:visited {
+                        color: $blue-purple-3;
+                    }
+                }
+            }   
+        }
+
+        .signature {
+    
+            p {
+                color: $light-purple-2;
+            }
+        }
+    }
+
+    .portfolio-content {
+        background: linear-gradient(170deg, $light-purple-1 40%, transparent 150%);
+        margin: 0 10px;
+        padding: 20px;
+        border-radius: $border-radius;
+        width: 100%;
+    
+        h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: white;
+        }
+    
+        hr {
+            width: 60%;
+            margin: 0 auto 20px auto;
+        }
+    
+        .content {
+            display: flex;
+            flex-direction: column;
+            
+            .radio-display {
+                background: linear-gradient(128deg, $blue-purple-3, $blue-purple-1);
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                border-radius: $border-radius;
+                margin: 10px 0;
+                padding: 10px;
+                color: lightgrey;
+                
+    
+                li {
+                    list-style: circle;
+                }
+            };
+    
+            .projects {
+                display: flex;
+                // border: 3px solid black;
+    
+                .project {
+                    background: linear-gradient(128deg, $blue-purple-3, $blue-purple-1);
+                    margin: 10px;
+                    border-radius: $border-radius;
+                    // display: flex;
+                    // justify-content: center;
+                    // align-items: center;
+                    position: relative;
+                    width: 302px;
+                    height: 202px;
+    
+                    img {
+                        width: 300px;
+                        height: 200px;
+                        border: 3px solid black;
+                        border-radius: $border-radius;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+        
+                    div {
+                        .icons {
+                            color: lightgrey;
+                            display: flex;
+                            justify-content: space-around;
+                            font-size: 30px;
+                            margin: 10px 0;
+                        }
+        
+                        h3 {
+                            color: lightgrey;
+                            margin: 10px 0;
+                        }
+        
+                        span {
+                            border: 2px solid black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.portfolio-light {
+    
+    .sidebar {
+        // background: linear-gradient(128deg, #6c4414dc, $light-purple-1); 
+        background: linear-gradient(140deg, $light-purple-1-light 60%, transparent 120%);
+
+        .id {
+
+            .id-content {
+        
+                img {
+                box-shadow: 0 0 0 3px $blue-purple-4, 0 0 0 6px $blue-purple-3, 0 0 0 8px $blue-purple-1;
+                }
+        
+                h3 {
+                color: $blue-purple-2;
+                }
+            }
+        }
+
+        .navigation {
+
+            ul {
+        
+                li {
+        
+                    a {
+                        color: $blue-purple-2-light;
+                    }
+            
+                    .navActive {
+                        color: $blue-purple-4-light;
+                    }
+                }
+            }
+        }
+
+        .social-networks {
+
+            ul {
+        
+                li {
+                background: $blue-purple-1;
+                color: $blue-purple-2;
+        
+                    &:hover {
+                        background: $blue-purple-3;
+                    }
+            
+                    &:visited {
+                        color: $blue-purple-3;
+                    }
+                }
+            }   
+        }
+
+        .signature {
+    
+            p {
+                color: $light-purple-2;
+            }
+        }
+    }
+
+    .portfolio-content {
+        background: linear-gradient(170deg, $light-purple-1-light 40%, transparent 150%);
+        margin: 0 10px;
+        padding: 20px;
+        border-radius: $border-radius;
+        width: 100%;
+    
+        h2 {
+            margin-bottom: 20px;
+            text-align: center;
+            color: $black-light;
+        }
+    
+        hr {
+            width: 60%;
+            margin: 0 auto 20px auto;
+        }
+    
+        .content {
+            display: flex;
+            flex-direction: column;
+            
+            .radio-display {
+                background: linear-gradient(128deg, $blue-purple-3, $blue-purple-1);
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                border-radius: $border-radius;
+                margin: 10px 0;
+                padding: 10px;
+                color: lightgrey;
+                
+    
+                li {
+                    list-style: circle;
+                }
+            };
+    
+            .projects {
+                display: flex;
+                // border: 3px solid black;
+    
+                .project {
+                    background: linear-gradient(128deg, $blue-purple-3, $blue-purple-1);
+                    margin: 10px;
+                    border-radius: $border-radius;
+                    // display: flex;
+                    // justify-content: center;
+                    // align-items: center;
+                    position: relative;
+                    width: 302px;
+                    height: 202px;
+    
+                    img {
+                        width: 300px;
+                        height: 200px;
+                        border: 3px solid black;
+                        border-radius: $border-radius;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                    }
+        
+                    div {
+                        .icons {
+                            color: lightgrey;
+                            display: flex;
+                            justify-content: space-around;
+                            font-size: 30px;
+                            margin: 10px 0;
+                        }
+        
+                        h3 {
+                            color: lightgrey;
+                            margin: 10px 0;
+                        }
+        
+                        span {
+                            border: 2px solid black;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

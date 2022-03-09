@@ -1,0 +1,350 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0%;
+    }
+    to {
+        opacity: 100%;
+    }
+}
+
+.contact {
+
+    .sidebar {
+        background: linear-gradient(115deg, $black-purple-1 50%, transparent 100%);
+
+        .id {
+
+            .id-content {
+        
+                img {
+                    box-shadow: 0 0 0 3px $black-purple-6, 0 0 0 6px $black-purple-3, 0 0 0 8px $black-purple-5;
+                }
+        
+                h3 {
+                color: $black-purple-2;
+                }
+            }
+        }
+
+        .navigation {
+
+            ul {
+        
+                li {
+        
+                    a {
+                        color: $black-purple-2;
+                    }
+            
+                    .navActive {
+                        color: $black-purple-4;
+                    }
+                }
+            }
+        }
+
+        .social-networks {
+
+            ul {
+        
+                li {
+                background: $brown-1;
+                color: $black-purple-2;
+        
+                    &:hover {
+                        background: $black-purple-3;
+                    }
+            
+                    &:visited {
+                        color: $black-purple-3;
+                    }
+                }
+            }   
+        }
+
+        .signature {
+
+            p {
+                color: $white-2;
+            }
+        }
+    }
+
+    .contact-content {
+        // background: linear-gradient(115deg, $black-purple-1 50%, transparent 100%);
+        background-image: url('../../img/contact/background.jpg');
+        opacity: 0.95;
+        background-size: cover;
+        margin: 0px 10px;
+        padding: 20px;
+        border-radius: $border-radius;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+        h2 {
+            color: white;
+            text-align: center;
+        }
+    
+        hr {
+            margin: 20px 0;
+        }
+    
+        .contact-section {
+    
+            .contact-me {
+                margin: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: space-between;
+        
+                iframe {
+                    border-radius: 5px;
+                    border: none;
+                    animation: fadeIn 1.5s linear;
+                }
+        
+                ul {
+                    background: linear-gradient(115deg, $black-purple-1 50%, transparent 200%);
+                    padding: 20px;
+                    border-radius: 7px;
+                    margin-left: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    animation: fadeIn 1s linear;
+        
+                    li {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 10px 20px;
+        
+                        i {
+                            color: $white-2;
+                            margin: 20px 0;
+                            font-size: 40px;
+                        }
+        
+                        span {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .socials-section {
+            border-radius: $border-radius;
+            background: linear-gradient(115deg, $black-purple-1 50%, transparent 200%);
+            padding: 30px;
+            animation: fadeIn 1s linear;
+    
+            .my-socials {
+                margin-top: 30px;
+        
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                    
+                    li {
+                        a {
+                            color: $white;
+                            
+                            i {
+                                transition: 0.3s color ease;
+                                font-size: 24px;
+                                color: $black-purple-2;
+                                margin-right: 20px;
+                            }
+                        }
+    
+                        a:hover,
+                        a:focus,
+                        a:active {
+                            color: $white-2;
+    
+                            i {
+                                transition: 0.3s color ease;
+                                color: $black-purple-4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.contact-light {
+
+    .sidebar {
+        background: linear-gradient(115deg, $black-purple-1 50%, transparent 100%);
+
+        .id {
+
+            .id-content {
+        
+                img {
+                    box-shadow: 0 0 0 3px $black-purple-6, 0 0 0 6px $black-purple-3, 0 0 0 8px $black-purple-5;
+                }
+        
+                h3 {
+                color: $black-purple-2;
+                }
+            }
+        }
+
+        .navigation {
+
+            ul {
+        
+                li {
+        
+                    a {
+                        color: $black-purple-2;
+                    }
+            
+                    .navActive {
+                        color: $black-purple-4;
+                    }
+                }
+            }
+        }
+
+        .social-networks {
+
+            ul {
+        
+                li {
+                background: $brown-1;
+                color: $black-purple-2;
+        
+                    &:hover {
+                        background: $black-purple-3;
+                    }
+            
+                    &:visited {
+                        color: $black-purple-3;
+                    }
+                }
+            }   
+        }
+
+        .signature {
+
+            p {
+                color: $white-2;
+            }
+        }
+    }
+    
+    .contact-content {
+        // background: linear-gradient(115deg, $black-purple-1 50%, transparent 100%);
+        background-image: url('../../img/contact/background.jpg');
+        opacity: 0.95;
+        background-size: cover;
+        margin: 0px 10px;
+        padding: 20px;
+        border-radius: $border-radius;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    
+        h2 {
+            color: white;
+            text-align: center;
+        }
+    
+        hr {
+            margin: 20px 0;
+        }
+    
+        .contact-section {
+    
+            .contact-me {
+                margin: 0;
+                display: flex;
+                justify-content: space-between;
+                align-items: space-between;
+        
+                iframe {
+                    border-radius: 5px;
+                    border: none;
+                    animation: fadeIn 1.5s linear;
+                }
+        
+                ul {
+                    background: linear-gradient(115deg, $black-purple-1 50%, transparent 200%);
+                    padding: 20px;
+                    border-radius: 7px;
+                    margin-left: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    animation: fadeIn 1s linear;
+        
+                    li {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding: 10px 20px;
+        
+                        i {
+                            color: $white-2;
+                            margin: 20px 0;
+                            font-size: 40px;
+                        }
+        
+                        span {
+                            color: $white;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .socials-section {
+            border-radius: $border-radius;
+            background: linear-gradient(115deg, $black-purple-1 50%, transparent 200%);
+            padding: 30px;
+            animation: fadeIn 1s linear;
+    
+            .my-socials {
+                margin-top: 30px;
+        
+                ul {
+                    display: flex;
+                    justify-content: space-around;
+                    
+                    li {
+                        a {
+                            color: $white;
+                            
+                            i {
+                                transition: 0.3s color ease;
+                                font-size: 24px;
+                                color: $black-purple-2;
+                                margin-right: 20px;
+                            }
+                        }
+    
+                        a:hover,
+                        a:focus,
+                        a:active {
+                            color: $white-2;
+    
+                            i {
+                                transition: 0.3s color ease;
+                                color: $black-purple-4;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

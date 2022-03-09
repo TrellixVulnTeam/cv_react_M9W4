@@ -1,0 +1,245 @@
+.home {
+
+  .sidebar {
+    background: linear-gradient(128deg, #976527dc, #0b005c);
+
+    .id {
+
+      .id-content {
+
+        img {
+          box-shadow: 0 0 0 3px $blue-4, 0 0 0 6px $blue-3, 0 0 0 9px $blue-1;
+        }
+
+        h3 {
+          color: $blue-2;
+        }
+      }
+    }
+
+    .navigation {
+
+      ul {
+
+        li {
+
+          a {
+            color: $blue-2;
+          }
+
+          .navActive {
+            color: $blue-3;
+          }
+        }
+      }
+    }
+
+    .social-networks {
+
+      ul {
+
+        li {
+          background: $blue-1;
+          color: $blue-2;
+
+          &:hover {
+            background: $blue-3;
+          }
+  
+          &:visited {
+            color: $blue-3;
+          }
+        }
+      }
+    }
+
+    .signature {
+
+      p {
+        color: $blue-2;
+      }
+    }
+  }
+
+  .home-content {
+    opacity: 0.97;
+    background-image: url('../../img/homepage/background.png');
+    background-size: cover;
+    width: 90%;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: $border-radius;
+  
+    .content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // justify-content: center;
+        
+      h1 {
+        color: $blue-2;
+        // margin-bottom: 13vh;
+        margin: 40px 0 60px 0;
+        text-shadow: black 2px 2px 2px;
+      }
+
+      h2 {
+        background-color: rgba(0, 0, 0, 0.582);
+        border-radius: 5px;
+        padding: 10px;
+        opacity: 0.7;
+        font-size: 32px;
+        color: white;
+        text-align: right;
+        text-shadow: black 4px 4px 3px;
+        margin-bottom: 50px;
+      }
+
+      .pdf {
+        margin-top: 50px;
+
+        a {
+          border-radius: 5px;
+          border: 1px solid #777777;
+          font-size: 1.2rem;
+          padding: 15px 30px;
+          background-color: $white-2;
+          color: $white;
+          transition: 0.5s ease all;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+          background-color: $purple-1;
+          box-shadow: 2px 2px 2px $black;
+          transition: 0.5s ease all;
+        }
+      }
+    }
+  }
+}
+
+.home-light {
+
+  .sidebar {
+    background: linear-gradient(128deg, #998772dc, #9087d3);
+
+    .id {
+
+      .id-content {
+
+        img {
+          box-shadow: 0 0 0 3px $blue-4-light, 0 0 0 6px $blue-3-light, 0 0 0 9px $blue-1-light;
+        }
+
+        h3 {
+          color: $blue-2-light;
+        }
+      }
+    }
+
+    .navigation {
+
+      ul {
+
+        li {
+
+          a {
+            color: $blue-2-light;
+          }
+
+          .navActive {
+            color: $blue-3-light;
+          }
+        }
+      }
+    }
+
+    .social-networks {
+
+      ul {
+
+        li {
+          background: $blue-1-light;
+          color: $blue-2-light;
+
+          &:hover {
+            background: $blue-3-light;
+          }
+  
+          &:visited {
+            color: $blue-3-light;
+          }
+        }
+      }
+    }
+
+    .signature {
+
+      p {
+        color: $blue-2-light;
+      }
+    }
+  }
+
+  .home-content {
+    opacity: 0.98;
+    background-image: url('../../img/homepage/background.png');
+    background-size: cover;
+    width: 90%;
+    margin: 0 10px;
+    padding: 20px;
+    border-radius: $border-radius;
+  
+    .content {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // justify-content: center;
+        
+      h1 {
+        color: $white-light;
+        // margin-bottom: 13vh;
+        margin: 40px 0 60px 0;
+        text-shadow: black 2px 2px 2px;
+      }
+
+      h2 {
+        background-color: white;
+        border-radius: 5px;
+        padding: 10px;
+        opacity: 0.7;
+        font-size: 32px;
+        color: #2c2c2c;
+        text-align: right;
+        text-shadow: rgb(161, 229, 238) 2px 2px 3px;
+        box-shadow: 2px 2px 2px orange;
+        margin-bottom: 50px;
+      }
+
+      .pdf {
+        margin-top: 50px;
+
+        a {
+          border-radius: 5px;
+          border: 1px solid #777777;
+          font-size: 1.2rem;
+          padding: 15px 30px;
+          background-color: $white-2-light;
+          color: $black-light;
+          transition: 0.5s ease all;
+        }
+
+        a:hover,
+        a:focus,
+        a:active {
+          background-color: $purple-1-light;
+          box-shadow: 2px 2px 2px $black-light;
+          transition: 0.5s ease all;
+        }
+      }
+    }
+  }
+}

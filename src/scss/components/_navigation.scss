@@ -1,0 +1,129 @@
+.sidebar {
+    background-color: $color-1;
+    font-family: $font-1;
+    height: 95vh;
+    width: 20vw;
+    min-width: 250px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: $border-radius;
+
+    .id {
+
+        .id-content {
+            text-align: center;
+            margin: auto;
+
+            img {
+              margin-top: 30px;
+              height: 150px;
+              user-select: none;
+              border-radius: 100%;
+              box-shadow: 0 0 0 3px $color-3, 0 0 0 6px $color-4, 0 0 0 9px $color-5;
+            }
+
+            .ribbon {
+              background-color: white;
+              border-radius: 10px;
+              color: $color-5;
+              padding: 5px 0;
+              margin-top: 1.5rem;
+              box-shadow: 0 2.5px 5px #00000094;
+              position: absolute;
+              left: -1.6pc;
+              width: 260px;
+
+              // display: flex;
+              // justify-content: flex-end;
+              // align-items: center;
+
+                h3 {
+                  font-size: 1.1rem;
+                  text-transform: uppercase;
+                  letter-spacing: .1rem;
+                  // margin-top: 1.5rem;
+                  float: right;
+                  margin-right: 5px;
+                  
+              }
+            }
+        }
+    }
+
+    .navigation {
+      margin-top: 0.4rem;
+
+        ul {
+            height: 100%;
+          
+            li {
+              padding: 1rem 0 1rem .4rem;
+              margin-left: 1rem;
+              position: relative;
+      
+              &:hover i {
+                transform: translate(3px, 3px);
+              }
+      
+              a {
+                color: $color-5;
+              }
+
+              .navActive {
+                color: $color-4;
+              }
+      
+              i {
+                position: absolute;
+                font-size: 0.95rem;
+                transform: translateY(3px);
+                transition: .2s ease;
+              }
+
+              span {
+                margin-left: 2.7rem;
+              }
+            }
+          }
+    }
+
+    .social-networks {
+      margin-bottom: 20px;
+
+      ul {
+        display: flex;
+        justify-content: center;
+
+        li {
+          font-size: 1.5rem;
+          background: $color-5;
+          color: $color-1;
+          border-radius: 50%;
+          margin: 0 10px;
+          padding: .5rem 0.8rem;
+          transition: .3s;
+          cursor: pointer;
+
+          &:hover {
+            background: $color-4;
+          }
+
+          &:visited {
+            color: $color-5;
+          }
+        }
+      }
+    }
+
+    .signature {
+      margin-bottom: 20px;
+
+      p {
+        color: $color-4;
+        text-align: center;
+        font-size: .6rem;
+      }
+    }
+}
