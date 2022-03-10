@@ -44,14 +44,9 @@ $black-purple-6-light: #922e2e;
 $brown-1-light: #661a1a;
 
 // Body settings
-
-body {
-    background-color: grey;
-}
-
 .main-container-light {
     // height: 10%;
-    // background-image: url('./../img/background-all.jpg');
+    background-color: grey;
     background-size: cover;
     font-family: $font-1;
 
