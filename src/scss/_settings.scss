@@ -77,6 +77,7 @@ scrollbar-color: blue orange;
 /* Works on Chrome, Edge, and Safari */
 *::-webkit-scrollbar {
 width: 12px;
+background: $white-2;
 }
 
 *::-webkit-scrollbar-track {
