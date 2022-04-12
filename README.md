@@ -6,6 +6,10 @@ Well, I'm having a passion since childhood, but I knew this interest in IT when 
 
 ## Why ?
 
+- To have an easier way to know me better - (almost) everything about me on a web interface
+- A way for you to discover my course and studies not just in a CV - Graphical and animated presentation
+- The passion of making this website to know even more when it comes to Web Development - Optimizations and skills
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
